@@ -1,5 +1,5 @@
 import express from "express";
-import ProductManager from "./Index/manager/productManager.js";
+import ProductManager from "./manager/productManager.js";
 
 const app = express();
 
@@ -8,7 +8,7 @@ const PORT = 8080;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const manager = new ProductManager("./Index/productos/productos.json");
+const manager = new ProductManager("./index/productos/productos.json");
 
 app.get("/productos", async (req, res) => {
   const { limit } = req.query;
