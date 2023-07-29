@@ -1,0 +1,19 @@
+{
+  "name": "desafio_entregable3",
+  "version": "1.0.0",
+  "description": "desafio entregable número 3",
+  "main": "productManager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smnoris/smnoris-43390-DE-3-MERINO-NORIS.git"
+  },
+  "author": "smnoris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smnoris/smnoris-43390-DE-3-MERINO-NORIS/issues"
+  },
+  "homepage": "https://github.com/smnoris/smnoris-43390-DE-3-MERINO-NORIS#readme"
+}
